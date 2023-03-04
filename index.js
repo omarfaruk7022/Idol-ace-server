@@ -33,6 +33,7 @@ async function run() {
         const product = await productsCollection.findOne(query);
         res.send(product);
     })
+    
   } finally {
   }
 }
